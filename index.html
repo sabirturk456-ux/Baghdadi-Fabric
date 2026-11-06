@@ -36,7 +36,8 @@
       <a href="#shop" onclick="showPage('shop')" class="nav-link hover:text-yellow-400 transition">Shop</a>
       <a href="#about" onclick="showPage('about')" class="nav-link hover:text-yellow-400 transition">About</a>
       <a href="#contact" onclick="showPage('contact')" class="nav-link hover:text-yellow-400 transition">Contact</a>
-      <a href="#admin" onclick="showPage('admin')" class="text-yellow-400 hover:text-yellow-300 transition"></a>
+      <a href="#admin" onclick="showPage('admin')" class="text-yellow-400 hover:text-yellow-300 transition"><div class=""><i class="fas fa-lock"></i></div></a>
+
     </div>
     
     <button onclick="toggleMenu()" class="md:hidden text-2xl text-yellow-400"><i class="fas fa-bars"></i></button>
@@ -47,7 +48,7 @@
     <a href="#shop" onclick="showPage('shop');toggleMenu()" class="hover:text-yellow-400">Shop</a>
     <a href="#about" onclick="showPage('about');toggleMenu()" class="hover:text-yellow-400">About</a>
     <a href="#contact" onclick="showPage('contact');toggleMenu()" class="hover:text-yellow-400">Contact</a>
-    <a href="#admin" onclick="showPage('admin');toggleMenu()" class="text-yellow-400"></a>
+    <a href="#admin" onclick="showPage('admin');toggleMenu()" class="text-yellow-400"><div class=""><i class="fas fa-lock"></i></div></a>
   </div>
 </nav>
 
@@ -414,7 +415,6 @@
           <form onsubmit="adminLogin(event)" class="space-y-4">
             <input type="password" id="adminPass" placeholder="Password" class="admin-input" required>
             <button type="submit" class="btn-gold w-full py-3 rounded-full">Login</button>
-            <p class="text-xs text-gray-500 text-center">Default password: <span class="text-yellow-400">admin123</span></p>
           </form>
         </div>
       </div>

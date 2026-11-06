@@ -253,12 +253,12 @@ function toggleMenu() {
 function adminLogin(e) {
   e.preventDefault();
   const pass = document.getElementById("adminPass").value;
-  if (pass === "admin123") {
+  if (pass === "baba213") {
     document.getElementById("adminLogin").classList.add("hidden");
     document.getElementById("adminPanel").classList.remove("hidden");
     refreshAll();
   } else {
-    alert("Wrong password! Default: admin123");
+    alert("Wrong password!");
   }
 }
 function adminLogout() {
